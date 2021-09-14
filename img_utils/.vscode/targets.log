@@ -1,0 +1,514 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep  5 19:51:44 2021
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = pop
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# makefile (from 'Makefile', line 4)
+AR := ar -rcs
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1ab521b3-36c4-4af0-8ed6-cdc09d68d259.sock
+# makefile (from 'Makefile', line 7)
+SRC_DIR := src
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/hcduller
+# environment
+WINDOWPATH = 2
+# makefile (from 'Makefile', line 11)
+LIBS := -L../libft -lft
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/hcduller/Documents/42/SoLong/img_utils
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/share/pop:/home/hcduller/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+# environment
+OLDPWD = /home/hcduller
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/hcduller/Documents/42/SoLong/img_utils
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=ac154fe0-69d4-4ae6-96df-1708d05622a7&iid=ac154fe0-69d4-4ae6-96df-1708d05622a7&sid=ac154fe0-69d4-4ae6-96df-1708d05622a7","uploadToServer":true}
+# environment
+XDG_SESSION_DESKTOP = pop
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/hcduller/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 3813
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 10)
+INCLUDES := -I. -I../libft -I../mlx_linux -I..
+# environment
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2606,unix/pop-os:/tmp/.ICE-unix/2606
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/hcduller/.config/Code/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 22)
+OBJS = $(addprefix $(OBJS_DIR)/,$(SRC_FILES:.c=.o))
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/hcduller/.local/bin:/home/hcduller/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US:en
+# environment
+LC_MONETARY = en_US.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+INVOCATION_ID = 3798b79743134223b99961db2e9e0c6c
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = hcduller
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 1)
+NAME = libimg_utils.a
+# environment
+GTK_IM_MODULE = ibus
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = pop
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = hcduller
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := libimg_utils.a
+# environment
+DISPLAY = :1
+# environment
+USER = hcduller
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 13)
+SRC_FILES := img_offset.c overlay_images.c img_from_file.c override_images.c new_blank_image.c clear_image.c img_from_file_2.c destroy_t_mlx_img.c
+# environment
+MANAGERPID = 1969
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3813
+# makefile (from 'Makefile', line 8)
+OBJS_DIR := obj
+# environment
+PAGER = less
+# environment
+_ = /usr/share/code/code
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 5)
+CFLAGS := -Wall -Wextra -Werror
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:29635
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/hcduller
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
+# environment
+PAPERSIZE = letter
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 3)
+CC := gcc
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = pop
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# variable set hash-table stats:
+# Load=124/1024=12%, Rehash=0, Collisions=6/167=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 2065, inode 3680948): 10 files, no impossibilities so far.
+# . (device 2065, inode 3680947): 8 files, no impossibilities.
+
+# 18 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.c
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+obj/img_from_file_2.o: src/img_from_file_2.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'img_from_file_2'
+#  Last modified 2021-09-05 19:47:02.799412071
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+obj/img_offset.o: src/img_offset.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'img_offset'
+#  Last modified 2021-09-05 19:47:02.719411645
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+ 
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-05 19:51:44.220933922
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/overlay_images.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-02 14:49:14.850110013
+#  File has been updated.
+#  Successfully updated.
+
+obj/new_blank_image.o: src/new_blank_image.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'new_blank_image'
+#  Last modified 2021-09-05 19:47:02.771411922
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	rm -rfd $(OBJS_DIR)
+
+# Not a target:
+src/img_offset.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-24 20:30:34.276512772
+#  File has been updated.
+#  Successfully updated.
+
+re: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/img_from_file_2.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-05 16:42:01.506179309
+#  File has been updated.
+#  Successfully updated.
+
+obj/clear_image.o: src/clear_image.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'clear_image'
+#  Last modified 2021-09-05 19:47:02.787412008
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+obj/overlay_images.o: src/overlay_images.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'overlay_images'
+#  Last modified 2021-09-05 19:47:02.735411728
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/destroy_t_mlx_img.o: src/destroy_t_mlx_img.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'destroy_t_mlx_img'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/destroy_t_mlx_img.o
+# automatic
+# * := destroy_t_mlx_img
+# automatic
+# < := src/destroy_t_mlx_img.c
+# automatic
+# + := src/destroy_t_mlx_img.c
+# automatic
+# % := 
+# automatic
+# ^ := src/destroy_t_mlx_img.c
+# automatic
+# ? := src/destroy_t_mlx_img.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/16=19%
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+all: libimg_utils.a
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 39):
+	rm -f $(NAME)
+
+# Not a target:
+src/new_blank_image.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-05 16:42:01.506179309
+#  File has been updated.
+#  Successfully updated.
+
+obj/override_images.o: src/override_images.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'override_images'
+#  Last modified 2021-09-05 19:47:02.759411856
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+# Not a target:
+src/img_from_file.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-24 22:46:56.613344429
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/override_images.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-01 16:19:24.723527949
+#  File has been updated.
+#  Successfully updated.
+
+obj/img_from_file.o: src/img_from_file.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'img_from_file'
+#  Last modified 2021-09-05 19:47:02.747411794
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mkdir -p $(OBJS_DIR)
+	$(CC) -g $< $(INCLUDES) -c -o $@
+
+# Not a target:
+src/clear_image.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-02 12:04:50.002917273
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/destroy_t_mlx_img.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-05 19:51:41.784920644
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean fclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libimg_utils.a: obj/img_offset.o obj/overlay_images.o obj/img_from_file.o obj/override_images.o obj/new_blank_image.o obj/clear_image.o obj/img_from_file_2.o obj/destroy_t_mlx_img.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-09-05 19:47:02.799412071
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 27):
+	$(AR) $(NAME) $(OBJS)
+
+# files hash-table stats:
+# Load=25/1024=2%, Rehash=0, Collisions=0/76=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 51 / storage = 735 B / avg = 14 B
+# current buf: size = 8162 B / used = 735 B / count = 51 / avg = 14 B
+
+# strcache performance: lookups = 80 / hit rate = 36%
+# hash-table stats:
+# Load=51/8192=1%, Rehash=0, Collisions=0/80=0%
+# Finished Make data base on Sun Sep  5 19:51:44 2021
+
+ 

@@ -1,0 +1,248 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hcduller/Documents/42/so_long_2'
+echo "Compiling src/can_move_to.c into objs/can_move_to.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/can_move_to.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/can_move_to.o
+echo "Compiling src/close_win.c into objs/close_win.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/close_win.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/close_win.o
+echo "Compiling src/count_entities.c into objs/count_entities.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/count_entities.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/count_entities.o
+echo "Compiling src/c_to_i.c into objs/c_to_i.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/c_to_i.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/c_to_i.o
+echo "Compiling src/game_tick.c into objs/game_tick.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/game_tick.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/game_tick.o
+echo "Compiling src/get_ent_by_pos.c into objs/get_ent_by_pos.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/get_ent_by_pos.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/get_ent_by_pos.o
+echo "Compiling src/make_overlay.c into objs/make_overlay.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/make_overlay.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/make_overlay.o
+echo "Compiling src/new_entity.c into objs/new_entity.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/new_entity.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/new_entity.o
+echo "Compiling src/pos_has_entity.c into objs/pos_has_entity.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/pos_has_entity.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/pos_has_entity.o
+echo "Compiling src/pressed_key.c into objs/pressed_key.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/pressed_key.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/pressed_key.o
+echo "Compiling src/translate_player.c into objs/translate_player.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/translate_player.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/translate_player.o
+echo "Compiling src/fill_entities.c into objs/fill_entities.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/fill_entities.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/fill_entities.o
+echo "Compiling src/load_sprites.c into objs/load_sprites.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_sprites.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_sprites.o
+echo "Compiling src/get_player.c into objs/get_player.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/get_player.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/get_player.o
+echo "Compiling src/get_exit.c into objs/get_exit.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/get_exit.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/get_exit.o
+echo "Compiling src/load_enemy.c into objs/load_enemy.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_enemy.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_enemy.o
+echo "Compiling src/load_exit.c into objs/load_exit.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_exit.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_exit.o
+echo "Compiling src/load_meat.c into objs/load_meat.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_meat.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_meat.o
+echo "Compiling src/load_player.c into objs/load_player.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_player.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_player.o
+echo "Compiling src/load_snow.c into objs/load_snow.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_snow.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_snow.o
+echo "Compiling src/load_tree.c into objs/load_tree.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/load_tree.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/load_tree.o
+echo "Compiling src/img_from_entity.c into objs/img_from_entity.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/img_from_entity.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/img_from_entity.o
+echo "Compiling src/make_base_map.c into objs/make_base_map.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/make_base_map.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/make_base_map.o
+echo "Compiling src/get_image_by_type.c into objs/get_image_by_type.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/get_image_by_type.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/get_image_by_type.o
+echo "Compiling src/start_game.c into objs/start_game.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/start_game.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/start_game.o
+echo "Compiling src/main.c into objs/main.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/main.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/main.o
+echo "Compiling src/destroy_entity.c into objs/destroy_entity.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/destroy_entity.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/destroy_entity.o
+echo "Compiling src/destroy_entities.c into objs/destroy_entities.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/destroy_entities.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/destroy_entities.o
+echo "Compiling src/destroy_sprite.c into objs/destroy_sprite.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/destroy_sprite.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/destroy_sprite.o
+echo "Compiling src/destroy_game_sprites.c into objs/destroy_game_sprites.o"
+mkdir -p objs
+clang -g -c -Wall -Werror -Wextra  src/destroy_game_sprites.c -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -o objs/destroy_game_sprites.o
+make -C ./libft
+make[1]: Entering directory '/home/hcduller/Documents/42/so_long_2/libft'
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_atoi.c -I./ -o objs/ft_atoi.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_bzero.c -I./ -o objs/ft_bzero.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_calloc.c -I./ -o objs/ft_calloc.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_isalnum.c -I./ -o objs/ft_isalnum.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_isalpha.c -I./ -o objs/ft_isalpha.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_isascii.c -I./ -o objs/ft_isascii.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_isdigit.c -I./ -o objs/ft_isdigit.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_isprint.c -I./ -o objs/ft_isprint.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_itoa.c -I./ -o objs/ft_itoa.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_litoa.c -I./ -o objs/ft_litoa.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstadd_back.c -I./ -o objs/ft_lstadd_back.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstadd_front.c -I./ -o objs/ft_lstadd_front.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstclear.c -I./ -o objs/ft_lstclear.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstdelone.c -I./ -o objs/ft_lstdelone.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstiter.c -I./ -o objs/ft_lstiter.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstlast.c -I./ -o objs/ft_lstlast.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstmap.c -I./ -o objs/ft_lstmap.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstnew.c -I./ -o objs/ft_lstnew.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_lstsize.c -I./ -o objs/ft_lstsize.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_memccpy.c -I./ -o objs/ft_memccpy.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_memchr.c -I./ -o objs/ft_memchr.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_memcmp.c -I./ -o objs/ft_memcmp.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_memcpy.c -I./ -o objs/ft_memcpy.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_memmove.c -I./ -o objs/ft_memmove.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_memset.c -I./ -o objs/ft_memset.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_putchar_fd.c -I./ -o objs/ft_putchar_fd.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_putendl_fd.c -I./ -o objs/ft_putendl_fd.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_putnbr_fd.c -I./ -o objs/ft_putnbr_fd.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_putstr_fd.c -I./ -o objs/ft_putstr_fd.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_split.c -I./ -o objs/ft_split.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strchr.c -I./ -o objs/ft_strchr.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strdup.c -I./ -o objs/ft_strdup.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strjoin.c -I./ -o objs/ft_strjoin.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strlcat.c -I./ -o objs/ft_strlcat.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strlcpy.c -I./ -o objs/ft_strlcpy.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strlen.c -I./ -o objs/ft_strlen.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strmapi.c -I./ -o objs/ft_strmapi.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strncmp.c -I./ -o objs/ft_strncmp.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strnstr.c -I./ -o objs/ft_strnstr.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strrchr.c -I./ -o objs/ft_strrchr.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_strtrim.c -I./ -o objs/ft_strtrim.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_substr.c -I./ -o objs/ft_substr.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_tolower.c -I./ -o objs/ft_tolower.o
+mkdir -p objs
+clang -Wall -Wextra -Werror -g -c src/ft_toupper.c -I./ -o objs/ft_toupper.o
+echo "Creating libft.a"
+ar -rc libft.a objs/ft_atoi.o objs/ft_bzero.o objs/ft_calloc.o objs/ft_isalnum.o objs/ft_isalpha.o objs/ft_isascii.o objs/ft_isdigit.o objs/ft_isprint.o objs/ft_itoa.o objs/ft_litoa.o objs/ft_lstadd_back.o objs/ft_lstadd_front.o objs/ft_lstclear.o objs/ft_lstdelone.o objs/ft_lstiter.o objs/ft_lstlast.o objs/ft_lstmap.o objs/ft_lstnew.o objs/ft_lstsize.o objs/ft_memccpy.o objs/ft_memchr.o objs/ft_memcmp.o objs/ft_memcpy.o objs/ft_memmove.o objs/ft_memset.o objs/ft_putchar_fd.o objs/ft_putendl_fd.o objs/ft_putnbr_fd.o objs/ft_putstr_fd.o objs/ft_split.o objs/ft_strchr.o objs/ft_strdup.o objs/ft_strjoin.o objs/ft_strlcat.o objs/ft_strlcpy.o objs/ft_strlen.o objs/ft_strmapi.o objs/ft_strncmp.o objs/ft_strnstr.o objs/ft_strrchr.o objs/ft_strtrim.o objs/ft_substr.o objs/ft_tolower.o objs/ft_toupper.o
+make[1]: Leaving directory '/home/hcduller/Documents/42/so_long_2/libft'
+make -C ./img_utils
+make[1]: Entering directory '/home/hcduller/Documents/42/so_long_2/img_utils'
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/img_offset.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/img_offset.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/overlay_images.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/overlay_images.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/img_from_file.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/img_from_file.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/override_images.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/override_images.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/new_blank_image.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/new_blank_image.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/clear_image.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/clear_image.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/img_from_file_2.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/img_from_file_2.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/destroy_t_mlx_img.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/destroy_t_mlx_img.o
+ar -rcs libimg_utils.a obj/img_offset.o obj/overlay_images.o obj/img_from_file.o obj/override_images.o obj/new_blank_image.o obj/clear_image.o obj/img_from_file_2.o obj/destroy_t_mlx_img.o
+make[1]: Leaving directory '/home/hcduller/Documents/42/so_long_2/img_utils'
+make -C ./ber_parser
+ 
+make[1]: Entering directory '/home/hcduller/Documents/42/so_long_2/ber_parser'
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/file_to_string.c -I../libft -I. -c -o obj/file_to_string.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/replace_chars.c -I../libft -I. -c -o obj/replace_chars.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/count_lines.c -I../libft -I. -c -o obj/count_lines.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_forbidden_char.c -I../libft -I. -c -o obj/has_forbidden_char.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/line_size.c -I../libft -I. -c -o obj/line_size.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/break_into_lines.c -I../libft -I. -c -o obj/break_into_lines.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/map_boundaries_ok.c -I../libft -I. -c -o obj/map_boundaries_ok.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_just_one_player.c -I../libft -I. -c -o obj/has_just_one_player.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_one_or_more_of.c -I../libft -I. -c -o obj/has_one_or_more_of.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/free_lines.c -I../libft -I. -c -o obj/free_lines.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_distinct_line_sizes.c -I../libft -I. -c -o obj/has_distinct_line_sizes.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/get_parsed_map.c -I../libft -I. -c -o obj/get_parsed_map.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/destroy_map.c -I../libft -I. -c -o obj/destroy_map.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/check_ber_ext.c -I../libft -I. -c -o obj/check_ber_ext.o
+ar -rcs libberparser.a obj/file_to_string.o obj/replace_chars.o obj/count_lines.o obj/has_forbidden_char.o obj/line_size.o obj/break_into_lines.o obj/map_boundaries_ok.o obj/has_just_one_player.o obj/has_one_or_more_of.o obj/free_lines.o obj/has_distinct_line_sizes.o obj/get_parsed_map.o obj/destroy_map.o obj/check_ber_ext.o
+make[1]: Leaving directory '/home/hcduller/Documents/42/so_long_2/ber_parser'
+ 
+make -C ./mlx_linux
+ 
+make[1]: Entering directory '/home/hcduller/Documents/42/so_long_2/mlx_linux'
+./configure
+make[1]: Leaving directory '/home/hcduller/Documents/42/so_long_2/mlx_linux'
+ 
+clang -g objs/can_move_to.o objs/close_win.o objs/count_entities.o objs/c_to_i.o objs/game_tick.o objs/get_ent_by_pos.o objs/make_overlay.o objs/new_entity.o objs/pos_has_entity.o objs/pressed_key.o objs/translate_player.o objs/fill_entities.o objs/load_sprites.o objs/get_player.o objs/get_exit.o objs/load_enemy.o objs/load_exit.o objs/load_meat.o objs/load_player.o objs/load_snow.o objs/load_tree.o objs/img_from_entity.o objs/make_base_map.o objs/get_image_by_type.o objs/start_game.o objs/main.o objs/destroy_entity.o objs/destroy_entities.o objs/destroy_sprite.o objs/destroy_game_sprites.o -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux -L./img_utils -limg_utils -L./ber_parser -lberparser -L./mlx_linux -lmlx_Linux -L./libft -lft -lXext -lX11 -lm -o so_long
+make: Leaving directory '/home/hcduller/Documents/42/so_long_2'
+ 

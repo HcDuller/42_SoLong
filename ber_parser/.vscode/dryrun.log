@@ -1,0 +1,33 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hcduller/Documents/42/SoLong/ber_parser'
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/file_to_string.c -I../libft -I. -c -o obj/file_to_string.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/replace_chars.c -I../libft -I. -c -o obj/replace_chars.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/count_lines.c -I../libft -I. -c -o obj/count_lines.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_forbidden_char.c -I../libft -I. -c -o obj/has_forbidden_char.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/line_size.c -I../libft -I. -c -o obj/line_size.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/break_into_lines.c -I../libft -I. -c -o obj/break_into_lines.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/map_boundaries_ok.c -I../libft -I. -c -o obj/map_boundaries_ok.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_just_one_player.c -I../libft -I. -c -o obj/has_just_one_player.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_one_or_more_of.c -I../libft -I. -c -o obj/has_one_or_more_of.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/free_lines.c -I../libft -I. -c -o obj/free_lines.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/has_distinct_line_sizes.c -I../libft -I. -c -o obj/has_distinct_line_sizes.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/get_parsed_map.c -I../libft -I. -c -o obj/get_parsed_map.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/destroy_map.c -I../libft -I. -c -o obj/destroy_map.o
+mkdir -p obj
+clang -g -Wall -Wextra -Werror src/check_ber_ext.c -I../libft -I. -c -o obj/check_ber_ext.o
+ar -rcs libberparser.a obj/file_to_string.o obj/replace_chars.o obj/count_lines.o obj/has_forbidden_char.o obj/line_size.o obj/break_into_lines.o obj/map_boundaries_ok.o obj/has_just_one_player.o obj/has_one_or_more_of.o obj/free_lines.o obj/has_distinct_line_sizes.o obj/get_parsed_map.o obj/destroy_map.o obj/check_ber_ext.o
+make: Leaving directory '/home/hcduller/Documents/42/SoLong/ber_parser'
+ 

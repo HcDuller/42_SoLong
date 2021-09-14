@@ -1,0 +1,7 @@
+{
+	"makefile.extensionOutputFolder": "./.vscode",
+	"files.associations": {
+		"img_utils.h" : "c",
+		"configurationCache.log" : "json"
+	}
+}

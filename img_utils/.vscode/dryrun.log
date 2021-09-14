@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/hcduller/Documents/42/SoLong/img_utils'
+mkdir -p obj
+gcc -g src/destroy_t_mlx_img.c -I. -I../libft -I../mlx_linux -I.. -c -o obj/destroy_t_mlx_img.o
+ar -rcs libimg_utils.a obj/img_offset.o obj/overlay_images.o obj/img_from_file.o obj/override_images.o obj/new_blank_image.o obj/clear_image.o obj/img_from_file_2.o obj/destroy_t_mlx_img.o
+make: Leaving directory '/home/hcduller/Documents/42/SoLong/img_utils'
+ 
