@@ -23,7 +23,9 @@ SRC_FILES	:=	file_to_string.c \
 				has_distinct_line_sizes.c \
 				get_parsed_map.c \
 				destroy_map.c \
-				check_ber_ext.c 
+				check_ber_ext.c \
+				list_utils.c \
+				item_utils.c
 
 OBJS		=	$(addprefix $(OBJS_DIR)/,$(SRC_FILES:.c=.o))
 

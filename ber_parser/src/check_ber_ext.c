@@ -6,7 +6,7 @@
 /*   By: hde-camp <hde-camp@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:58:19 by hde-camp          #+#    #+#             */
-/*   Updated: 2021/09/05 16:41:22 by hde-camp         ###   ########.fr       */
+/*   Updated: 2021/09/14 16:16:17 by hde-camp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,7 @@ int	check_ber_ext(char *path)
 	if (len == 0 || len < 4)
 	{
 		errno = EINVAL;
-		ft_putstr_fd("Error\n", 1);
-		perror(NULL);
+		ft_putstr_fd("Error\nArgumento invalido.\n", 1);
 		exit(EINVAL);
 	}
 	if (path[len - 4] == '.' && path[len - 3] == 'b' && \
@@ -30,8 +29,7 @@ int	check_ber_ext(char *path)
 	else
 	{
 		errno = EINVAL;
-		ft_putstr_fd("Error\n", 1);
-		perror(NULL);
+		ft_putstr_fd("Error\nExtencao Invalida\n", 1);
 		exit(EINVAL);
 	}
 	return (0);
