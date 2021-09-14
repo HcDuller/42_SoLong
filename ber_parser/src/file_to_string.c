@@ -1,3 +1,4 @@
+
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -6,7 +7,7 @@
 /*   By: hde-camp <hde-camp@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 19:12:06 by hde-camp          #+#    #+#             */
-/*   Updated: 2021/09/09 22:12:01 by hde-camp         ###   ########.fr       */
+/*   Updated: 2021/09/13 22:49:52 by hde-camp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -167,7 +168,7 @@ char	*file_to_string(const char *path)
 	fd = open(path, O_RDONLY);
 	if (fd <= 0)
 	{
-		perror("Error\nArquivo nao encontrado ou em branco.");
+		ft_putstr_fd("Error\nArquivo nao encontrado.\n", 1);
 		exit(EXIT_FAILURE);
 		return (NULL);
 	}
@@ -181,7 +182,15 @@ char	*file_to_string(const char *path)
 		read_c = read(fd, buf, 50);
 	}
 	free(buf);
-	buf = list_to_str(list);
+	if (list)
+		buf = list_to_str(list);
+	else
+	{
+		close(fd);
+		ft_putstr_fd("Error\nArquivo em branco.\n", 1);
+		exit(EXIT_FAILURE);
+		return (NULL);
+	}
 	close(fd);
 	return (buf);
 }

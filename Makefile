@@ -45,15 +45,15 @@ SRC			=	$(addprefix $(SRC_DIR)/,$(RAW))
 
 .PHONY:	clean fclean re norms
 
+all:	$(NAME)
+
+$(NAME): $(OBJS) ft utils parser mlx
+	$(CC) $(OBJS) $(INCLUDES) $(LIBS) -o $(NAME)
+
 $(OBJS_DIR)/%.o:	$(SRC_DIR)/%.c
 	@echo "Compiling $< into $@"
 	@mkdir -p $(OBJS_DIR)
-	$(CC) -g -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-$(NAME): $(OBJS) ft utils parser mlx
-	$(CC) -g $(OBJS) $(INCLUDES) $(LIBS) -o $(NAME)
-
-all:	$(NAME)
+	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
 
 clean:
 	rm -rfd $(OBJS_DIR)
@@ -80,7 +80,9 @@ norms:
 
 utils:
 	@$(MAKE) -C ./img_utils
+
 mlx:
 	@$(MAKE) -C ./mlx_linux
+
 parser:
 	@$(MAKE) -C ./ber_parser
