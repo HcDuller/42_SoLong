@@ -25,7 +25,8 @@ SRC_FILES	:=	file_to_string.c \
 				destroy_map.c \
 				check_ber_ext.c \
 				list_utils.c \
-				item_utils.c
+				item_utils.c \
+				check_map_size.c
 
 OBJS		=	$(addprefix $(OBJS_DIR)/,$(SRC_FILES:.c=.o))
 
@@ -41,6 +42,9 @@ $(OBJS_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
 
 clean:
-	rm -rfd $(OBJS_DIR) 
+	rm -rfd $(OBJS_DIR)
+
+fclean: clean
+	rm -f $(NAME)
 
 re: clean all

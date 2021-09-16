@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Sep 13 13:28:48 2021
+# Make data base, printed on Thu Sep 16 17:13:10 2021
 
 # Variables
 
@@ -15,15 +15,15 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
+NO_AT_BRIDGE = 1
+# environment
 GNOME_SHELL_SESSION_MODE = pop
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # makefile (from 'Makefile', line 4)
 AR := ar -rcs
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7fbe8a5c-4907-4d6a-91e4-199a7476f474.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-29e16400-5dde-4497-b0c1-1d739b2e0f58.sock
 # makefile (from 'Makefile', line 7)
 SRC_DIR := src
 # environment
@@ -31,7 +31,7 @@ LC_NAME = en_US.UTF-8
 # environment
 LC_NUMERIC = en_US.UTF-8
 # environment
-VSCODE_CWD = /home/hcduller
+VSCODE_CWD = /home/hcduller/Documents/42/so_long_2/ber_parser
 # environment
 WINDOWPATH = 2
 # makefile (from 'Makefile', line 11)
@@ -45,13 +45,11 @@ QT_ACCESSIBILITY = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/hcduller/Documents/42/SoLong/ber_parser
+PWD = /home/hcduller/Documents/42/so_long_2/ber_parser
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -67,7 +65,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
+VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/83bd43bc519d15e50c4272c6cf5c1479df196a4d
 # environment
 LANG = C
 # environment
@@ -76,10 +74,12 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.112
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/hcduller/Documents/42/SoLong/ber_parser
+CURDIR := /home/hcduller/Documents/42/so_long_2/ber_parser
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -109,7 +109,7 @@ ZSH = /home/hcduller/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 6848
+VSCODE_PID = 8205
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -117,7 +117,7 @@ XDG_SESSION_TYPE = x11
 # makefile (from 'Makefile', line 10)
 INCLUDES := -I../libft -I.
 # environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2585,unix/pop-os:/tmp/.ICE-unix/2585
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2673,unix/pop-os:/tmp/.ICE-unix/2673
 # automatic
 *F = $(notdir $*)
 # environment
@@ -132,7 +132,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 BREAKPAD_DUMP_LOCATION = /home/hcduller/.config/Code/exthost Crash Reports
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 28)
+# makefile (from 'Makefile', line 31)
 OBJS = $(addprefix $(OBJS_DIR)/,$(SRC_FILES:.c=.o))
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
@@ -143,9 +143,9 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+SHLVL = 1
 # environment
-SHLVL = 0
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/95fe2e63_468c_4a4b_8c9a_adc9c8ba715d
 # environment
 MAKELEVEL := 0
 # default
@@ -163,8 +163,6 @@ LC_MONETARY = en_US.UTF-8
 # environment
 LC_TIME = en_US.UTF-8
 # environment
-INVOCATION_ID = 3afeeec43cae48c5b18116662051caf1
-# environment
 VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = hcduller
@@ -179,7 +177,7 @@ GTK_IM_MODULE = ibus
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
-LS_COLORS = 
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
 # environment
@@ -192,8 +190,6 @@ ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = hcduller
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := libberparser.a
 # environment
@@ -205,19 +201,15 @@ GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
 # default
 MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 13)
-SRC_FILES := file_to_string.c replace_chars.c count_lines.c has_forbidden_char.c line_size.c break_into_lines.c map_boundaries_ok.c has_just_one_player.c has_one_or_more_of.c free_lines.c has_distinct_line_sizes.c get_parsed_map.c destroy_map.c check_ber_ext.c 
-# environment
-MANAGERPID = 2042
+SRC_FILES := file_to_string.c replace_chars.c count_lines.c has_forbidden_char.c line_size.c break_into_lines.c map_boundaries_ok.c has_just_one_player.c has_one_or_more_of.c free_lines.c has_distinct_line_sizes.c get_parsed_map.c destroy_map.c check_ber_ext.c list_utils.c item_utils.c check_map_size.c
 # environment
 LC_MEASUREMENT = en_US.UTF-8
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6848
 # makefile (from 'Makefile', line 8)
 OBJS_DIR := obj
 # environment
 PAGER = less
 # environment
-_ = /usr/share/code/code
+_ = /usr/bin/code
 # environment
 LC_PAPER = en_US.UTF-8
 # environment
@@ -227,7 +219,7 @@ CFLAGS := -Wall -Wextra -Werror
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:31730
+COLORTERM = truecolor
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -239,7 +231,9 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.60.1-main.sock
+# environment
+TERM = xterm-256color
 # environment
 PAPERSIZE = letter
 # default
@@ -248,6 +242,12 @@ PAPERSIZE = letter
 <F = $(notdir $<)
 # default
 SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6203
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # makefile (from 'Makefile', line 3)
@@ -259,7 +259,7 @@ GDMSESSION = pop
 # environment
 LC_IDENTIFICATION = en_US.UTF-8
 # variable set hash-table stats:
-# Load=124/1024=12%, Rehash=0, Collisions=6/168=4%
+# Load=124/1024=12%, Rehash=0, Collisions=13/168=8%
 
 # Pattern-specific Variable Values
 
@@ -267,15 +267,15 @@ LC_IDENTIFICATION = en_US.UTF-8
 
 # Directories
 
-# src (device 2065, inode 3803559): 8 files, no impossibilities so far.
-# . (device 2065, inode 3803556): 8 files, no impossibilities.
+# src (device 2065, inode 3681840): 9 files, no impossibilities so far.
+# . (device 2065, inode 3681838): 8 files, no impossibilities.
 
-# 16 files, no impossibilities in 2 directories.
+# 17 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
 obj/%.o: src/%.c
-#  recipe to execute (from 'Makefile', line 38):
+#  recipe to execute (from 'Makefile', line 41):
 	@mkdir -p $(OBJS_DIR)
 	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
 
@@ -312,9 +312,22 @@ obj/file_to_string.o: src/file_to_string.c
 # | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=3/17=18%
-#  recipe to execute (from 'Makefile', line 38):
+ 
+#  recipe to execute (from 'Makefile', line 41):
 	@mkdir -p $(OBJS_DIR)
 	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
+
+# Not a target:
+obj/list_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/item_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 obj/map_boundaries_ok.o:
@@ -325,8 +338,7 @@ obj/map_boundaries_ok.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
- 
-#  Last modified 2021-09-08 23:12:46.358826216
+#  Last modified 2021-09-16 17:13:08.292314705
 #  File has been updated.
 #  Successfully updated.
 
@@ -339,7 +351,7 @@ obj/destroy_map.o:
 # Not a target:
 src/file_to_string.c:
 #  Implicit rule search has been done.
-#  Last modified 2021-09-09 22:12:01.59268486
+#  Last modified 2021-09-14 16:50:30.098970519
 #  File has been updated.
 #  Successfully updated.
 
@@ -360,7 +372,7 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 42):
+#  recipe to execute (from 'Makefile', line 45):
 	rm -rfd $(OBJS_DIR) 
 
 # Not a target:
@@ -375,14 +387,14 @@ obj/break_into_lines.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-libberparser.a: obj/file_to_string.o obj/replace_chars.o obj/count_lines.o obj/has_forbidden_char.o obj/line_size.o obj/break_into_lines.o obj/map_boundaries_ok.o obj/has_just_one_player.o obj/has_one_or_more_of.o obj/free_lines.o obj/has_distinct_line_sizes.o obj/get_parsed_map.o obj/destroy_map.o obj/check_ber_ext.o
+libberparser.a: obj/file_to_string.o obj/replace_chars.o obj/count_lines.o obj/has_forbidden_char.o obj/line_size.o obj/break_into_lines.o obj/map_boundaries_ok.o obj/has_just_one_player.o obj/has_one_or_more_of.o obj/free_lines.o obj/has_distinct_line_sizes.o obj/get_parsed_map.o obj/destroy_map.o obj/check_ber_ext.o obj/list_utils.o obj/item_utils.o obj/check_map_size.o
 #  Implicit rule search has not been done.
-#  Last modified 2021-09-09 21:40:37.221273968
+#  Last modified 2021-09-14 16:49:26.227789227
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/7=0%
-#  recipe to execute (from 'Makefile', line 33):
+#  recipe to execute (from 'Makefile', line 36):
 	$(AR) $(NAME) $(OBJS)
 
 re: clean all
@@ -452,20 +464,26 @@ obj/has_one_or_more_of.o:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+obj/check_map_size.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # files hash-table stats:
-# Load=24/1024=2%, Rehash=0, Collisions=1/58=2%
+# Load=27/1024=3%, Rehash=0, Collisions=1/64=2%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 43 / storage = 636 B / avg = 14 B
-# current buf: size = 8162 B / used = 636 B / count = 43 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 47 / storage = 704 B / avg = 14 B
+# current buf: size = 8162 B / used = 704 B / count = 47 / avg = 14 B
 
-# strcache performance: lookups = 60 / hit rate = 28%
+# strcache performance: lookups = 64 / hit rate = 26%
 # hash-table stats:
-# Load=43/8192=1%, Rehash=0, Collisions=0/60=0%
-# Finished Make data base on Mon Sep 13 13:28:48 2021
+# Load=47/8192=1%, Rehash=0, Collisions=0/64=0%
+# Finished Make data base on Thu Sep 16 17:13:10 2021
 
  

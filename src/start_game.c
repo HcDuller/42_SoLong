@@ -6,7 +6,7 @@
 /*   By: hde-camp <hde-camp@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 03:08:13 by hde-camp          #+#    #+#             */
-/*   Updated: 2021/09/06 14:58:15 by hde-camp         ###   ########.fr       */
+/*   Updated: 2021/09/16 17:08:22 by hde-camp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	start_game(t_game_handler *game, t_lines *map)
 {
 	game->mlx.conn = mlx_init();
 	game->mlx.win = mlx_new_window(game->mlx.conn, map->l_len * 64, \
-									map->size * 64, "Title");
+									map->size * 64, "so_long");
 	game->entities = fill_entities(*map);
 	game->sprites = load_sprites(&(*game).mlx);
 	game->moves = 0;

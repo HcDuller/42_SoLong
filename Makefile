@@ -55,6 +55,8 @@ $(OBJS_DIR)/%.o:	$(SRC_DIR)/%.c
 	@mkdir -p $(OBJS_DIR)
 	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
 
+bonus: $(NAME)
+
 clean:
 	rm -rfd $(OBJS_DIR)
 	@$(MAKE) -C ./libft clean

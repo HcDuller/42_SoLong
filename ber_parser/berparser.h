@@ -6,7 +6,7 @@
 /*   By: hde-camp <hde-camp@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/13 22:50:25 by hde-camp          #+#    #+#             */
-/*   Updated: 2021/09/14 16:18:24 by hde-camp         ###   ########.fr       */
+/*   Updated: 2021/09/16 17:13:36 by hde-camp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,4 +59,5 @@ void		destroy_list(t_read_list *item);
 char		*list_to_str(t_read_list *item);
 t_read_list	*make_str_array(char *map);
 int			list_size(t_read_list *item);
+int			map_is_big_enough(char *map);
 #endif

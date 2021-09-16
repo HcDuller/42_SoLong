@@ -5,2537 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Sep 13 22:49:41 2021
-
-# Variables
-
-# environment
-GDK_BACKEND = x11
-# environment
-LC_ALL = C
-# makefile (from 'Makefile', line 56)
-SRC = $(addprefix $(SRC_DIR)/,$(RAW))
-# environment
-GNOME_SHELL_SESSION_MODE = pop
-# environment
-SSH_AGENT_LAUNCHER = gnome-keyring
-# makefile (from 'Makefile', line 4)
-AR := ar -rc
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-17b07498-4764-40ff-b80a-7effdddc982b.sock
-# makefile (from 'Makefile', line 8)
-SRC_DIR := src
-# environment
-LC_NAME = en_US.UTF-8
-# environment
-LC_NUMERIC = en_US.UTF-8
-# environment
-VSCODE_CWD = /home/hcduller/Documents/42/so_long_2
-# environment
-WINDOWPATH = 2
-# environment
-LC_ADDRESS = en_US.UTF-8
-# default
-MAKE_COMMAND := make
-# environment
-QT_ACCESSIBILITY = 1
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# makefile (from 'Makefile', line 9)
-OBJ_DIR := objs
-# environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# environment
-PWD = /home/hcduller/Documents/42/so_long_2
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-XDG_DATA_DIRS = /usr/share/pop:/home/hcduller/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/hcduller/Documents/Projects/ajdatasource2
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
-# environment
-LANG = C
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.197
-# makefile
-MAKEFLAGS = pqrRw
-# makefile
-CURDIR := /home/hcduller/Documents/42/so_long_2/libft
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-MFLAGS = -pqrRw
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# default
-.SHELLFLAGS := -c
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=ac154fe0-69d4-4ae6-96df-1708d05622a7&iid=ac154fe0-69d4-4ae6-96df-1708d05622a7&sid=ac154fe0-69d4-4ae6-96df-1708d05622a7","uploadToServer":true}
-# environment
-XDG_SESSION_DESKTOP = pop
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
-# automatic
-@F = $(notdir $@)
-# environment
-ZSH = /home/hcduller/.oh-my-zsh
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 10912
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2604,unix/pop-os:/tmp/.ICE-unix/2604
-# automatic
-*F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-BREAKPAD_DUMP_LOCATION = /home/hcduller/.config/Code/exthost Crash Reports
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 57)
-OBJS = $(addprefix $(OBJ_DIR)/,$(RAW:.c=.o))
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# makefile
-SHELL = /bin/sh
-# environment
-XMODIFIERS = @im=ibus
-# environment
-SHLVL = 1
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1e0456c1_1744_4e57_bdf5_549c5fd476fa
-# environment
-MAKELEVEL := 1
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-PATH = /home/hcduller/.local/bin:/home/hcduller/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-# default
-MAKEFILES := 
-# environment
-LANGUAGE = en_US:en
-# environment
-LC_MONETARY = en_US.UTF-8
-# automatic
-^F = $(notdir $^)
-# environment
-LC_TIME = en_US.UTF-8
-# environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = hcduller
-# makefile (from 'Makefile', line 11)
-RAW = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_itoa.c ft_litoa.c ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_putchar_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_putstr_fd.c ft_split.c ft_strchr.c ft_strdup.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c
-# environment
-LC_TELEPHONE = en_US.UTF-8
-# automatic
-?F = $(notdir $?)
-# makefile (from 'Makefile', line 1)
-NAME := libft.a
-# environment
-GTK_IM_MODULE = ibus
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-# automatic
-+F = $(notdir $+)
-# environment
-LESS = -R
-# environment
-DESKTOP_SESSION = pop
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-LOGNAME = hcduller
-# makefile
-.DEFAULT_GOAL := libft.a
-# makefile (from 'Makefile', line 5)
-RM := rm -rfd
-# environment
-DISPLAY = :1
-# environment
-USER = hcduller
-# environment
-GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
-# default
-MAKE_VERSION := 4.3
-# environment
-LC_MEASUREMENT = en_US.UTF-8
-# environment
-PAGER = less
-# environment
-_ = /usr/bin/code
-# environment
-LC_PAPER = en_US.UTF-8
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# makefile (from 'Makefile', line 6)
-CFLAGS := -Wall -Wextra -Werror
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
-COLORTERM = truecolor
-# environment
-XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
-# environment
-HOME = /home/hcduller
-# environment
-QT_IM_MODULE = ibus
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
-# environment
-TERM = xterm-256color
-# environment
-PAPERSIZE = letter
-# default
-.RECIPEPREFIX := 
-# automatic
-<F = $(notdir $<)
-# default
-SUFFIXES := 
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6203
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# makefile (from 'Makefile', line 3)
-CC := clang
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-GDMSESSION = pop
-# environment
-LC_IDENTIFICATION = en_US.UTF-8
-# variable set hash-table stats:
- 
-# Load=123/1024=12%, Rehash=0, Collisions=16/162=10%
-
-# Pattern-specific Variable Values
-
-# No pattern-specific variable values.
-
-# Directories
-
-# src (device 2065, inode 3682029): 46 files, no impossibilities so far.
-# . (device 2065, inode 3682020): 9 files, no impossibilities.
-
-# 55 files, no impossibilities in 2 directories.
-
-# Implicit Rules
-
-objs/%.o: src/%.c
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# 1 implicit rules, 0 (0.0%) terminal.
-# Files
-
-# Not a target:
-src/ft_lstnew.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-08 23:02:26.293587
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_atoi.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_bzero.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_tolower.o: src/ft_tolower.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_tolower'
-#  Last modified 2021-09-13 22:48:00.609114299
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strncmp.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_putstr_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_strlcpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_isdigit.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_memset.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_memcpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_lstmap.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-libft.a: objs/ft_atoi.o objs/ft_bzero.o objs/ft_calloc.o objs/ft_isalnum.o objs/ft_isalpha.o objs/ft_isascii.o objs/ft_isdigit.o objs/ft_isprint.o objs/ft_itoa.o objs/ft_litoa.o objs/ft_lstadd_back.o objs/ft_lstadd_front.o objs/ft_lstclear.o objs/ft_lstdelone.o objs/ft_lstiter.o objs/ft_lstlast.o objs/ft_lstmap.o objs/ft_lstnew.o objs/ft_lstsize.o objs/ft_memccpy.o objs/ft_memchr.o objs/ft_memcmp.o objs/ft_memcpy.o objs/ft_memmove.o objs/ft_memset.o objs/ft_putchar_fd.o objs/ft_putendl_fd.o objs/ft_putnbr_fd.o objs/ft_putstr_fd.o objs/ft_split.o objs/ft_strchr.o objs/ft_strdup.o objs/ft_strjoin.o objs/ft_strlcat.o objs/ft_strlcpy.o objs/ft_strlen.o objs/ft_strmapi.o objs/ft_strncmp.o objs/ft_strnstr.o objs/ft_strrchr.o objs/ft_strtrim.o objs/ft_substr.o objs/ft_tolower.o objs/ft_toupper.o
-#  Implicit rule search has not been done.
-#  Last modified 2021-09-13 22:48:00.633114463
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 62):
-	@echo "Creating $(NAME)"
-	@$(AR) $(NAME) $(OBJS)
-
-objs/ft_strchr.o: src/ft_strchr.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strchr'
-#  Last modified 2021-09-13 22:48:00.377112721
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_toupper.o: src/ft_toupper.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_toupper'
-#  Last modified 2021-09-13 22:48:00.629114435
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strdup.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_lstiter.o: src/ft_lstiter.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstiter'
-#  Last modified 2021-09-13 22:48:00.069110627
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strlen.o: src/ft_strlen.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strlen'
-#  Last modified 2021-09-13 22:48:00.477113403
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_lstadd_front.o: src/ft_lstadd_front.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstadd_front'
-#  Last modified 2021-09-13 22:48:00.013110245
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_calloc.o: src/ft_calloc.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_calloc'
-#  Last modified 2021-09-13 22:47:59.83710905
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_isascii.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_lstadd_back.o: src/ft_lstadd_back.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstadd_back'
-#  Last modified 2021-09-13 22:47:59.993110109
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_memccpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_putendl_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_strnstr.o: src/ft_strnstr.c
- 
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strnstr'
-#  Last modified 2021-09-13 22:48:00.533113783
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_memset.o: src/ft_memset.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memset'
-#  Last modified 2021-09-13 22:48:00.261111933
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strmapi.o: src/ft_strmapi.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strmapi'
-#  Last modified 2021-09-13 22:48:00.493113511
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_lstadd_back.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_substr.o: src/ft_substr.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_substr'
-#  Last modified 2021-09-13 22:48:00.589114163
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_memmove.o: src/ft_memmove.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memmove'
-#  Last modified 2021-09-13 22:48:00.241111797
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_lstmap.o: src/ft_lstmap.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstmap'
-#  Last modified 2021-09-13 22:48:00.109110899
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 13:18:19.980428
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_substr.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_lstsize.o: src/ft_lstsize.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstsize'
-#  Last modified 2021-09-13 22:48:00.145111143
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_isalnum.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_isalnum.o: src/ft_isalnum.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_isalnum'
-#  Last modified 2021-09-13 22:47:59.857109186
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strlcpy.o: src/ft_strlcpy.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strlcpy'
-#  Last modified 2021-09-13 22:48:00.457113267
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_litoa.o: src/ft_litoa.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_litoa'
-#  Last modified 2021-09-13 22:47:59.973109973
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_putchar_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_bzero.o: src/ft_bzero.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_bzero'
-#  Last modified 2021-09-13 22:47:59.817108914
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_lstnew.o: src/ft_lstnew.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstnew'
-#  Last modified 2021-09-13 22:48:00.125111007
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_lstclear.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_litoa.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:44:46.871432
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_lstlast.o: src/ft_lstlast.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstlast'
-#  Last modified 2021-09-13 22:48:00.089110763
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 72):
-	$(RM) $(OBJ_DIR)
-
-objs/ft_isdigit.o: src/ft_isdigit.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_isdigit'
-#  Last modified 2021-09-13 22:47:59.913109565
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strlcat.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_lstclear.o: src/ft_lstclear.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstclear'
-#  Last modified 2021-09-13 22:48:00.033110381
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strrchr.o: src/ft_strrchr.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strrchr'
-#  Last modified 2021-09-13 22:48:00.549113891
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_isalpha.o: src/ft_isalpha.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_isalpha'
-#  Last modified 2021-09-13 22:47:59.877109322
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_putendl_fd.o: src/ft_putendl_fd.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_putendl_fd'
-#  Last modified 2021-09-13 22:48:00.301112205
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strdup.o: src/ft_strdup.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strdup'
-#  Last modified 2021-09-13 22:48:00.397112857
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_lstdelone.o: src/ft_lstdelone.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lstdelone'
-#  Last modified 2021-09-13 22:48:00.049110492
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-re: fclean all
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-src/ft_lstdelone.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-08 23:02:45.397749
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_memcmp.o: src/ft_memcmp.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memcmp'
-#  Last modified 2021-09-13 22:48:00.201111525
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strchr.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_lstiter.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_putnbr_fd.o: src/ft_putnbr_fd.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_putnbr_fd'
-#  Last modified 2021-09-13 22:48:00.321112341
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strlen.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_lstadd_front.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-09-08 23:01:36.08116
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_memchr.o: src/ft_memchr.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memchr'
-#  Last modified 2021-09-13 22:48:00.185111415
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strtrim.o: src/ft_strtrim.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strtrim'
-#  Last modified 2021-09-13 22:48:00.569114027
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_lstsize.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_itoa.o: src/ft_itoa.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_itoa'
-#  Last modified 2021-09-13 22:47:59.953109837
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_split.o: src/ft_split.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_split'
-#  Last modified 2021-09-13 22:48:00.361112613
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-all: libft.a
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-fclean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 75):
-	$(RM) $(OBJ_DIR) $(NAME)
-
-objs/ft_memcpy.o: src/ft_memcpy.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memcpy'
-#  Last modified 2021-09-13 22:48:00.221111661
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strtrim.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_split.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_toupper.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_isascii.o: src/ft_isascii.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_isascii'
-#  Last modified 2021-09-13 22:47:59.893109429
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_memchr.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_strncmp.o: src/ft_strncmp.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strncmp'
-#  Last modified 2021-09-13 22:48:00.513113647
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_putchar_fd.o: src/ft_putchar_fd.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_putchar_fd'
-#  Last modified 2021-09-13 22:48:00.281112069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_putnbr_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_isprint.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_memccpy.o: src/ft_memccpy.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_memccpy'
-#  Last modified 2021-09-13 22:48:00.165111279
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_strmapi.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_memcmp.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_isalpha.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_strrchr.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_strjoin.o: src/ft_strjoin.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strjoin'
-#  Last modified 2021-09-13 22:48:00.417112993
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_memmove.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_calloc.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_tolower.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_atoi.o: src/ft_atoi.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_atoi'
-#  Last modified 2021-09-13 22:47:59.797108778
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-objs/ft_strlcat.o: src/ft_strlcat.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_strlcat'
-#  Last modified 2021-09-13 22:48:00.437113129
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-.PHONY: clean fclean re
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-src/ft_strjoin.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_isprint.o: src/ft_isprint.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_isprint'
-#  Last modified 2021-09-13 22:47:59.933109701
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
-
-# Not a target:
-src/ft_itoa.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/ft_lstlast.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-objs/ft_putstr_fd.o: src/ft_putstr_fd.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_putstr_fd'
-#  Last modified 2021-09-13 22:48:00.337112449
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 66):
-	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -g -c $< -I./ -o $@
- 
-
-# Not a target:
-src/ft_strnstr.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-08-13 17:53:29.897161
-#  File has been updated.
-#  Successfully updated.
-
-# files hash-table stats:
-# Load=97/1024=9%, Rehash=0, Collisions=13/293=4%
-# VPATH Search Paths
-
-# No 'vpath' search paths.
-
-# No general ('VPATH' variable) search path.
-
-# strcache buffers: 1 (0) / strings = 197 / storage = 2751 B / avg = 13 B
-# current buf: size = 8162 B / used = 2751 B / count = 197 / avg = 13 B
-
-# strcache performance: lookups = 260 / hit rate = 24%
-# hash-table stats:
-# Load=197/8192=2%, Rehash=0, Collisions=2/260=1%
-# Finished Make data base on Mon Sep 13 22:49:41 2021
-
- 
-# GNU Make 4.3
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
-
-# Make data base, printed on Mon Sep 13 22:49:41 2021
-
-# Variables
-
-# environment
-GDK_BACKEND = x11
-# environment
-LC_ALL = C
-# environment
-GNOME_SHELL_SESSION_MODE = pop
-# environment
-SSH_AGENT_LAUNCHER = gnome-keyring
-# makefile (from 'Makefile', line 4)
-AR := ar -rcs
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-17b07498-4764-40ff-b80a-7effdddc982b.sock
-# makefile (from 'Makefile', line 7)
-SRC_DIR := src
-# environment
-LC_NAME = en_US.UTF-8
-# environment
-LC_NUMERIC = en_US.UTF-8
-# environment
-VSCODE_CWD = /home/hcduller/Documents/42/so_long_2
-# environment
-WINDOWPATH = 2
-# makefile (from 'Makefile', line 11)
-LIBS := -L../libft -lft
-# environment
-LC_ADDRESS = en_US.UTF-8
-# default
-MAKE_COMMAND := make
-# environment
-QT_ACCESSIBILITY = 1
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# environment
-PWD = /home/hcduller/Documents/42/so_long_2
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-XDG_DATA_DIRS = /usr/share/pop:/home/hcduller/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/hcduller/Documents/Projects/ajdatasource2
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
-# environment
-LANG = C
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.197
-# makefile
-MAKEFLAGS = pqrRw
-# makefile
-CURDIR := /home/hcduller/Documents/42/so_long_2/img_utils
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-MFLAGS = -pqrRw
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# default
-.SHELLFLAGS := -c
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=ac154fe0-69d4-4ae6-96df-1708d05622a7&iid=ac154fe0-69d4-4ae6-96df-1708d05622a7&sid=ac154fe0-69d4-4ae6-96df-1708d05622a7","uploadToServer":true}
-# environment
-XDG_SESSION_DESKTOP = pop
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
-# automatic
-@F = $(notdir $@)
-# environment
-ZSH = /home/hcduller/.oh-my-zsh
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 10912
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# makefile (from 'Makefile', line 10)
-INCLUDES := -I. -I../libft -I../mlx_linux -I..
-# environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2604,unix/pop-os:/tmp/.ICE-unix/2604
-# automatic
-*F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-BREAKPAD_DUMP_LOCATION = /home/hcduller/.config/Code/exthost Crash Reports
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 22)
-OBJS = $(addprefix $(OBJS_DIR)/,$(SRC_FILES:.c=.o))
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# makefile
-SHELL = /bin/sh
-# environment
-XMODIFIERS = @im=ibus
-# environment
-SHLVL = 1
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1e0456c1_1744_4e57_bdf5_549c5fd476fa
-# environment
-MAKELEVEL := 1
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-PATH = /home/hcduller/.local/bin:/home/hcduller/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-# default
-MAKEFILES := 
-# environment
-LANGUAGE = en_US:en
-# environment
-LC_MONETARY = en_US.UTF-8
-# automatic
-^F = $(notdir $^)
-# environment
-LC_TIME = en_US.UTF-8
-# environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = hcduller
-# environment
-LC_TELEPHONE = en_US.UTF-8
-# automatic
-?F = $(notdir $?)
-# makefile (from 'Makefile', line 1)
-NAME = libimg_utils.a
-# environment
-GTK_IM_MODULE = ibus
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-# automatic
-+F = $(notdir $+)
-# environment
-LESS = -R
-# environment
-DESKTOP_SESSION = pop
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-LOGNAME = hcduller
-# makefile
-.DEFAULT_GOAL := libimg_utils.a
-# environment
-DISPLAY = :1
-# environment
-USER = hcduller
-# environment
-GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
-# default
-MAKE_VERSION := 4.3
-# makefile (from 'Makefile', line 13)
-SRC_FILES := img_offset.c overlay_images.c img_from_file.c override_images.c new_blank_image.c clear_image.c img_from_file_2.c destroy_t_mlx_img.c
-# environment
-LC_MEASUREMENT = en_US.UTF-8
-# makefile (from 'Makefile', line 8)
-OBJS_DIR := obj
-# environment
-PAGER = less
-# environment
-_ = /usr/bin/code
- 
-# environment
-LC_PAPER = en_US.UTF-8
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# makefile (from 'Makefile', line 5)
-CFLAGS := -Wall -Wextra -Werror
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
-COLORTERM = truecolor
-# environment
-XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
-# environment
-HOME = /home/hcduller
-# environment
-QT_IM_MODULE = ibus
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
-# environment
-TERM = xterm-256color
-# environment
-PAPERSIZE = letter
-# default
-.RECIPEPREFIX := 
-# automatic
-<F = $(notdir $<)
-# default
-SUFFIXES := 
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6203
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# makefile (from 'Makefile', line 3)
-CC := clang
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-GDMSESSION = pop
-# environment
-LC_IDENTIFICATION = en_US.UTF-8
-# variable set hash-table stats:
-# Load=123/1024=12%, Rehash=0, Collisions=14/162=9%
-
-# Pattern-specific Variable Values
-
-# No pattern-specific variable values.
-
-# Directories
-
-# src (device 2065, inode 3682005): 10 files, no impossibilities so far.
-# . (device 2065, inode 3682003): 8 files, no impossibilities.
-
-# 18 files, no impossibilities in 2 directories.
-
-# Implicit Rules
-
-obj/%.o: src/%.c
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# 1 implicit rules, 0 (0.0%) terminal.
-# Files
-
-obj/img_from_file_2.o: src/img_from_file_2.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'img_from_file_2'
-#  Last modified 2021-09-13 22:48:00.777115443
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-obj/img_offset.o: src/img_offset.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'img_offset'
-#  Last modified 2021-09-13 22:48:00.653114599
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:03:03.692922
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/overlay_images.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-02 14:49:14.85011
-#  File has been updated.
-#  Successfully updated.
-
-obj/new_blank_image.o: src/new_blank_image.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'new_blank_image'
-#  Last modified 2021-09-13 22:48:00.737115171
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 36):
-	rm -rfd $(OBJS_DIR)
-
-# Not a target:
-src/img_offset.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:47:41.322769
-#  File has been updated.
-#  Successfully updated.
-
-re: clean all
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-src/img_from_file_2.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:47:34.458788
-#  File has been updated.
-#  Successfully updated.
-
-obj/clear_image.o: src/clear_image.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'clear_image'
-#  Last modified 2021-09-13 22:48:00.757115307
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-obj/overlay_images.o: src/overlay_images.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'overlay_images'
-#  Last modified 2021-09-13 22:48:00.677114763
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-obj/destroy_t_mlx_img.o: src/destroy_t_mlx_img.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'destroy_t_mlx_img'
-#  Last modified 2021-09-13 22:48:00.797115579
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-all: libimg_utils.a
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-fclean: clean
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 39):
-	rm -f $(NAME)
-
-# Not a target:
-src/new_blank_image.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:03:22.100943
-#  File has been updated.
-#  Successfully updated.
-
-obj/override_images.o: src/override_images.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'override_images'
-#  Last modified 2021-09-13 22:48:00.717115035
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/img_from_file.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:46:49.618928
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/override_images.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-01 16:19:24.723527
-#  File has been updated.
-#  Successfully updated.
-
-obj/img_from_file.o: src/img_from_file.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'img_from_file'
-#  Last modified 2021-09-13 22:48:00.697114899
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 32):
-	mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/clear_image.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-02 12:04:50.002917
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/destroy_t_mlx_img.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:46:06.463083
-#  File has been updated.
-#  Successfully updated.
-
-.PHONY: clean fclean
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
- 
-libimg_utils.a: obj/img_offset.o obj/overlay_images.o obj/img_from_file.o obj/override_images.o obj/new_blank_image.o obj/clear_image.o obj/img_from_file_2.o obj/destroy_t_mlx_img.o
-#  Implicit rule search has not been done.
-#  Last modified 2021-09-13 22:48:00.801115604
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 27):
-	$(AR) $(NAME) $(OBJS)
-
-# files hash-table stats:
-# Load=25/1024=2%, Rehash=0, Collisions=0/76=0%
-# VPATH Search Paths
-
-# No 'vpath' search paths.
-
-# No general ('VPATH' variable) search path.
-
-# strcache buffers: 1 (0) / strings = 52 / storage = 745 B / avg = 14 B
-# current buf: size = 8162 B / used = 745 B / count = 52 / avg = 14 B
-
-# strcache performance: lookups = 79 / hit rate = 34%
-# hash-table stats:
-# Load=52/8192=1%, Rehash=0, Collisions=0/79=0%
-# Finished Make data base on Mon Sep 13 22:49:41 2021
-
- 
-# GNU Make 4.3
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
- 
-
-# Make data base, printed on Mon Sep 13 22:49:41 2021
-
-# Variables
-
-# environment
-GDK_BACKEND = x11
-# environment
-LC_ALL = C
-# environment
-GNOME_SHELL_SESSION_MODE = pop
-# environment
-SSH_AGENT_LAUNCHER = gnome-keyring
-# makefile (from 'Makefile', line 4)
-AR := ar -rcs
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-17b07498-4764-40ff-b80a-7effdddc982b.sock
-# makefile (from 'Makefile', line 7)
-SRC_DIR := src
-# environment
-LC_NAME = en_US.UTF-8
-# environment
-LC_NUMERIC = en_US.UTF-8
-# environment
-VSCODE_CWD = /home/hcduller/Documents/42/so_long_2
-# environment
-WINDOWPATH = 2
-# makefile (from 'Makefile', line 11)
-LIBS := -L../libft -lft
-# environment
-LC_ADDRESS = en_US.UTF-8
-# default
-MAKE_COMMAND := make
-# environment
-QT_ACCESSIBILITY = 1
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# environment
-PWD = /home/hcduller/Documents/42/so_long_2
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-XDG_DATA_DIRS = /usr/share/pop:/home/hcduller/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/hcduller/Documents/Projects/ajdatasource2
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
-# environment
-LANG = C
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.197
-# makefile
-MAKEFLAGS = pqrRw
-# makefile
-CURDIR := /home/hcduller/Documents/42/so_long_2/ber_parser
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-MFLAGS = -pqrRw
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# default
- 
-.SHELLFLAGS := -c
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=ac154fe0-69d4-4ae6-96df-1708d05622a7&iid=ac154fe0-69d4-4ae6-96df-1708d05622a7&sid=ac154fe0-69d4-4ae6-96df-1708d05622a7","uploadToServer":true}
-# environment
-XDG_SESSION_DESKTOP = pop
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
-# automatic
-@F = $(notdir $@)
-# environment
-ZSH = /home/hcduller/.oh-my-zsh
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 10912
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# makefile (from 'Makefile', line 10)
-INCLUDES := -I../libft -I.
-# environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2604,unix/pop-os:/tmp/.ICE-unix/2604
-# automatic
-*F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-BREAKPAD_DUMP_LOCATION = /home/hcduller/.config/Code/exthost Crash Reports
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 28)
-OBJS = $(addprefix $(OBJS_DIR)/,$(SRC_FILES:.c=.o))
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# makefile
-SHELL = /bin/sh
-# environment
-XMODIFIERS = @im=ibus
-# environment
-SHLVL = 1
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1e0456c1_1744_4e57_bdf5_549c5fd476fa
-# environment
-MAKELEVEL := 1
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-PATH = /home/hcduller/.local/bin:/home/hcduller/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-# default
-MAKEFILES := 
-# environment
-LANGUAGE = en_US:en
-# environment
-LC_MONETARY = en_US.UTF-8
-# automatic
-^F = $(notdir $^)
-# environment
-LC_TIME = en_US.UTF-8
-# environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = hcduller
-# environment
-LC_TELEPHONE = en_US.UTF-8
-# automatic
-?F = $(notdir $?)
-# makefile (from 'Makefile', line 1)
-NAME = libberparser.a
-# environment
-GTK_IM_MODULE = ibus
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-# automatic
-+F = $(notdir $+)
-# environment
-LESS = -R
-# environment
-DESKTOP_SESSION = pop
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-LOGNAME = hcduller
-# makefile
-.DEFAULT_GOAL := libberparser.a
-# environment
-DISPLAY = :1
-# environment
-USER = hcduller
-# environment
-GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
-# default
-MAKE_VERSION := 4.3
-# makefile (from 'Makefile', line 13)
-SRC_FILES := file_to_string.c replace_chars.c count_lines.c has_forbidden_char.c line_size.c break_into_lines.c map_boundaries_ok.c has_just_one_player.c has_one_or_more_of.c free_lines.c has_distinct_line_sizes.c get_parsed_map.c destroy_map.c check_ber_ext.c 
-# environment
-LC_MEASUREMENT = en_US.UTF-8
-# makefile (from 'Makefile', line 8)
-OBJS_DIR := obj
-# environment
-PAGER = less
-# environment
-_ = /usr/bin/code
-# environment
-LC_PAPER = en_US.UTF-8
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# makefile (from 'Makefile', line 5)
-CFLAGS := -Wall -Wextra -Werror
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
- 
-COLORTERM = truecolor
-# environment
-XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
-# environment
-HOME = /home/hcduller
-# environment
-QT_IM_MODULE = ibus
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
-# environment
-TERM = xterm-256color
-# environment
-PAPERSIZE = letter
-# default
-.RECIPEPREFIX := 
-# automatic
-<F = $(notdir $<)
-# default
-SUFFIXES := 
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6203
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# makefile (from 'Makefile', line 3)
-CC := clang
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-GDMSESSION = pop
-# environment
-LC_IDENTIFICATION = en_US.UTF-8
-# variable set hash-table stats:
-# Load=123/1024=12%, Rehash=0, Collisions=14/162=9%
-
-# Pattern-specific Variable Values
-
-# No pattern-specific variable values.
-
-# Directories
-
-# src (device 2065, inode 3681840): 16 files, no impossibilities so far.
-# . (device 2065, inode 3681838): 9 files, no impossibilities.
-
-# 25 files, no impossibilities in 2 directories.
-
-# Implicit Rules
-
-obj/%.o: src/%.c
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# 1 implicit rules, 0 (0.0%) terminal.
-# Files
-
-obj/has_forbidden_char.o: src/has_forbidden_char.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'has_forbidden_char'
-#  Last modified 2021-09-13 22:48:00.885116176
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/get_parsed_map.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-13 22:31:59.686357054
-#  File has been updated.
-#  Successfully updated.
-
-obj/file_to_string.o: src/file_to_string.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'file_to_string'
-#  Last modified 2021-09-13 22:48:00.825115768
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/has_distinct_line_sizes.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:02:43.816899
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/count_lines.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-01 16:44:11.173102
-#  File has been updated.
-#  Successfully updated.
-
-obj/map_boundaries_ok.o: src/map_boundaries_ok.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'map_boundaries_ok'
- 
-#  Last modified 2021-09-13 22:48:00.949116613
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-08 23:12:46.358826
-#  File has been updated.
-#  Successfully updated.
-
-obj/destroy_map.o: src/destroy_map.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'destroy_map'
-#  Last modified 2021-09-13 22:48:01.081117511
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/map_boundaries_ok.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:01:20.0888
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/file_to_string.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-13 22:35:28.459781525
-#  File has been updated.
-#  Successfully updated.
-
-obj/check_ber_ext.o: src/check_ber_ext.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'check_ber_ext'
-#  Last modified 2021-09-13 22:48:01.101117646
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-obj/free_lines.o: src/free_lines.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'free_lines'
-#  Last modified 2021-09-13 22:48:01.013117046
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 42):
-	rm -rfd $(OBJS_DIR) 
-
-obj/line_size.o: src/line_size.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'line_size'
-#  Last modified 2021-09-13 22:48:00.909116341
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-obj/break_into_lines.o: src/break_into_lines.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'break_into_lines'
-#  Last modified 2021-09-13 22:48:00.929116477
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/replace_chars.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-01 16:44:11.173102
-#  File has been updated.
-#  Successfully updated.
-
-libberparser.a: obj/file_to_string.o obj/replace_chars.o obj/count_lines.o obj/has_forbidden_char.o obj/line_size.o obj/break_into_lines.o obj/map_boundaries_ok.o obj/has_just_one_player.o obj/has_one_or_more_of.o obj/free_lines.o obj/has_distinct_line_sizes.o obj/get_parsed_map.o obj/destroy_map.o obj/check_ber_ext.o
-#  Implicit rule search has not been done.
-#  Last modified 2021-09-13 22:48:01.105117672
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 33):
-	$(AR) $(NAME) $(OBJS)
-
-re: clean all
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-src/line_size.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-01 16:44:11.173102
-#  File has been updated.
-#  Successfully updated.
-
-obj/has_distinct_line_sizes.o: src/has_distinct_line_sizes.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'has_distinct_line_sizes'
-#  Last modified 2021-09-13 22:48:01.03711721
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/free_lines.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-09-01 16:44:11.173102
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/check_ber_ext.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 16:42:01.502179
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-all: libberparser.a
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-fclean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-src/has_forbidden_char.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 13:50:45.099937
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/has_one_or_more_of.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 13:51:35.588017
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/break_into_lines.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-09 21:24:55.69526
-#  File has been updated.
-#  Successfully updated.
-
-obj/count_lines.o: src/count_lines.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'count_lines'
-#  Last modified 2021-09-13 22:48:00.86511604
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-obj/get_parsed_map.o: src/get_parsed_map.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'get_parsed_map'
-#  Last modified 2021-09-13 22:48:01.057117346
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/destroy_map.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:09:06.069476
-#  File has been updated.
-#  Successfully updated.
-
-obj/has_just_one_player.o: src/has_just_one_player.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'has_just_one_player'
-#  Last modified 2021-09-13 22:48:00.973116774
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-obj/replace_chars.o: src/replace_chars.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'replace_chars'
-#  Last modified 2021-09-13 22:48:00.845115904
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# Not a target:
-src/has_just_one_player.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 13:51:01.355963
-#  File has been updated.
-#  Successfully updated.
-
-.PHONY: clean fclean
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-obj/has_one_or_more_of.o: src/has_one_or_more_of.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'has_one_or_more_of'
-#  Last modified 2021-09-13 22:48:00.99311691
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 38):
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -g $(CFLAGS) $< $(INCLUDES) -c -o $@
-
-# files hash-table stats:
-# Load=37/1024=4%, Rehash=0, Collisions=1/110=1%
-# VPATH Search Paths
-
-# No 'vpath' search paths.
-
-# No general ('VPATH' variable) search path.
-
-# strcache buffers: 1 (0) / strings = 77 / storage = 1243 B / avg = 16 B
-# current buf: size = 8162 B / used = 1243 B / count = 77 / avg = 16 B
-
-# strcache performance: lookups = 107 / hit rate = 28%
-# hash-table stats:
- 
-# Load=77/8192=1%, Rehash=0, Collisions=0/107=0%
-# Finished Make data base on Mon Sep 13 22:49:41 2021
-
- 
-# GNU Make 4.3
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
- 
-
-# Make data base, printed on Mon Sep 13 22:49:41 2021
-
-# Variables
-
-# environment
-GDK_BACKEND = x11
-# environment
-LC_ALL = C
-# environment
-GNOME_SHELL_SESSION_MODE = pop
-# environment
-SSH_AGENT_LAUNCHER = gnome-keyring
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-17b07498-4764-40ff-b80a-7effdddc982b.sock
-# environment
-LC_NAME = en_US.UTF-8
-# environment
-LC_NUMERIC = en_US.UTF-8
-# environment
-VSCODE_CWD = /home/hcduller/Documents/42/so_long_2
-# environment
-WINDOWPATH = 2
-# environment
-LC_ADDRESS = en_US.UTF-8
-# default
-MAKE_COMMAND := make
-# environment
-QT_ACCESSIBILITY = 1
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# environment
-PWD = /home/hcduller/Documents/42/so_long_2
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-XDG_DATA_DIRS = /usr/share/pop:/home/hcduller/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/hcduller/Documents/Projects/ajdatasource2
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
-# environment
-LANG = C
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.197
-# makefile
-MAKEFLAGS = pqrRw
-# makefile
-CURDIR := /home/hcduller/Documents/42/so_long_2/mlx_linux
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-MFLAGS = -pqrRw
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# default
-.SHELLFLAGS := -c
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=ac154fe0-69d4-4ae6-96df-1708d05622a7&iid=ac154fe0-69d4-4ae6-96df-1708d05622a7&sid=ac154fe0-69d4-4ae6-96df-1708d05622a7","uploadToServer":true}
-# environment
-XDG_SESSION_DESKTOP = pop
- 
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
-# automatic
-@F = $(notdir $@)
-# environment
-ZSH = /home/hcduller/.oh-my-zsh
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 10912
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2604,unix/pop-os:/tmp/.ICE-unix/2604
-# automatic
-*F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-BREAKPAD_DUMP_LOCATION = /home/hcduller/.config/Code/exthost Crash Reports
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# makefile
-SHELL = /bin/sh
-# environment
-XMODIFIERS = @im=ibus
-# environment
-SHLVL = 1
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1e0456c1_1744_4e57_bdf5_549c5fd476fa
-# environment
-MAKELEVEL := 1
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-PATH = /home/hcduller/.local/bin:/home/hcduller/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-# default
-MAKEFILES := 
-# environment
-LANGUAGE = en_US:en
-# environment
-LC_MONETARY = en_US.UTF-8
-# automatic
-^F = $(notdir $^)
-# environment
-LC_TIME = en_US.UTF-8
-# environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = hcduller
-# environment
-LC_TELEPHONE = en_US.UTF-8
-# automatic
-?F = $(notdir $?)
-# environment
-GTK_IM_MODULE = ibus
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-# automatic
-+F = $(notdir $+)
-# environment
-LESS = -R
-# environment
-DESKTOP_SESSION = pop
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-LOGNAME = hcduller
-# makefile
-.DEFAULT_GOAL := all
-# environment
-DISPLAY = :1
-# environment
-USER = hcduller
-# environment
-GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
-# default
-MAKE_VERSION := 4.3
-# environment
-LC_MEASUREMENT = en_US.UTF-8
-# environment
-PAGER = less
-# environment
-_ = /usr/bin/code
-# environment
-LC_PAPER = en_US.UTF-8
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
-COLORTERM = truecolor
-# environment
-XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
-# environment
-HOME = /home/hcduller
-# environment
-QT_IM_MODULE = ibus
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
-# environment
-TERM = xterm-256color
-# environment
-PAPERSIZE = letter
-# default
-.RECIPEPREFIX := 
-# automatic
-<F = $(notdir $<)
-# default
-SUFFIXES := 
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6203
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-GDMSESSION = pop
-# environment
- 
-LC_IDENTIFICATION = en_US.UTF-8
-# variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=13/148=9%
-
-# Pattern-specific Variable Values
-
-# No pattern-specific variable values.
-
-# Directories
-
-# . (device 2065, inode 3682086): 53 files, no impossibilities.
-
-# 53 files, no impossibilities in 1 directories.
-
-# Implicit Rules
-
-# No implicit rules.
-
-# Files
-
-do_configure:
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := do_configure
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'Makefile', line 17):
-	./configure
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2021-04-28 09:50:29
-#  File has been updated.
-#  Successfully updated.
-
-clean:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 20):
-	./configure clean
-
-re: clean all
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-all: do_configure
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
-
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/23=0%
-# VPATH Search Paths
-
-# No 'vpath' search paths.
-
-# No general ('VPATH' variable) search path.
-
-# strcache buffers: 1 (0) / strings = 62 / storage = 856 B / avg = 13 B
-# current buf: size = 8162 B / used = 856 B / count = 62 / avg = 13 B
-
-# strcache performance: lookups = 73 / hit rate = 15%
-# hash-table stats:
-# Load=62/8192=1%, Rehash=0, Collisions=0/73=0%
-# Finished Make data base on Mon Sep 13 22:49:41 2021
-
- 
-# GNU Make 4.3
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
- 
-
-# Make data base, printed on Mon Sep 13 22:49:41 2021
+# Make data base, printed on Thu Sep 16 17:08:22 2021
 
 # Variables
 
@@ -2552,7 +23,7 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # makefile (from 'Makefile', line 3)
 AR = ar -rcs
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-17b07498-4764-40ff-b80a-7effdddc982b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-644922b6-bf4d-4486-9269-213bfe9b7ef6.sock
 # makefile (from 'Makefile', line 6)
 SRC_DIR = src
 # environment
@@ -2574,8 +45,6 @@ QT_ACCESSIBILITY = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
@@ -2588,7 +57,7 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /usr/share/pop:/home/hcduller/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/hcduller/Documents/Projects/ajdatasource2
+OLDPWD = /home/hcduller
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -2596,7 +65,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
+VSCODE_CODE_CACHE_PATH = /home/hcduller/.config/Code/CachedData/83bd43bc519d15e50c4272c6cf5c1479df196a4d
 # environment
 LANG = C
 # environment
@@ -2606,7 +75,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.197
+GNOME_TERMINAL_SERVICE = :1.112
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -2639,9 +108,8 @@ MAKEFILE_LIST := Makefile
 ZSH = /home/hcduller/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
- 
 # environment
-VSCODE_PID = 10912
+VSCODE_PID = 8205
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -2649,7 +117,7 @@ XDG_SESSION_TYPE = x11
 # makefile (from 'Makefile', line 40)
 INCLUDES = -I. -I./img_utils -I./ber_parser -I./libft -I./mlx_linux
 # environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2604,unix/pop-os:/tmp/.ICE-unix/2604
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2673,unix/pop-os:/tmp/.ICE-unix/2673
 # automatic
 *F = $(notdir $*)
 # environment
@@ -2677,7 +145,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1e0456c1_1744_4e57_bdf5_549c5fd476fa
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3dac2d04_ab71_412d_8b22_eeaa9c82ed06
 # environment
 MAKELEVEL := 0
 # default
@@ -2760,11 +228,10 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProce
 HOME = /home/hcduller
 # environment
 QT_IM_MODULE = ibus
- 
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.59.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6ff2d138-1.60.1-main.sock
 # environment
 TERM = xterm-256color
 # environment
@@ -2792,7 +259,7 @@ GDMSESSION = pop
 # environment
 LC_IDENTIFICATION = en_US.UTF-8
 # variable set hash-table stats:
-# Load=125/1024=12%, Rehash=0, Collisions=16/182=9%
+# Load=124/1024=12%, Rehash=0, Collisions=16/169=9%
 
 # Pattern-specific Variable Values
 
@@ -2800,10 +267,10 @@ LC_IDENTIFICATION = en_US.UTF-8
 
 # Directories
 
-# src (device 2065, inode 3682197): 32 files, no impossibilities so far.
-# . (device 2065, inode 3681619): 15 files, no impossibilities.
+# src (device 2065, inode 3682197): 13 files, no impossibilities so far.
+# . (device 2065, inode 3681619): 13 files, no impossibilities.
 
-# 47 files, no impossibilities in 2 directories.
+# 26 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -2816,349 +283,165 @@ objs/%.o: src/%.c
 # 1 implicit rules, 0 (0.0%) terminal.
 # Files
 
+# Not a target:
+objs/destroy_game_sprites.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
  
-objs/destroy_game_sprites.o: src/destroy_game_sprites.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'destroy_game_sprites'
-#  Last modified 2021-09-13 22:47:59.777108642
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/load_exit.o: src/load_exit.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_exit'
-#  Last modified 2021-09-13 22:47:59.485106656
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
 
 # Not a target:
-src/game_tick.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 15:03:24.612552
-#  File has been updated.
-#  Successfully updated.
+objs/load_exit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/translate_player.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:58:24.424335
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/make_overlay.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 16:42:01.518179
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/load_sprites.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:38:26.600732
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/load_enemy.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:38:22.532712
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/load_exit.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:38:15.788678
-#  File has been updated.
-#  Successfully updated.
-
-objs/close_win.o: src/close_win.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'close_win'
-#  Last modified 2021-09-13 22:47:59.153104396
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/count_entities.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-09-04 18:10:18.660326
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/pos_has_entity.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-04 18:11:04.456578
-#  File has been updated.
-#  Successfully updated.
+objs/close_win.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 norms:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 76):
+#  recipe to execute (from 'Makefile', line 78):
 	norminette ./src
 	norminette ./libft
 	norminette ./ber_parser
 	norminette ./img_utils
 
-objs/get_player.o: src/get_player.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'get_player'
-#  Last modified 2021-09-13 22:47:59.417106192
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/get_player.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-objs/get_ent_by_pos.o: src/get_ent_by_pos.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'get_ent_by_pos'
-#  Last modified 2021-09-13 22:47:59.241104996
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/get_ent_by_pos.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-objs/make_overlay.o: src/make_overlay.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'make_overlay'
-#  Last modified 2021-09-13 22:47:59.265105158
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/make_overlay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-objs/make_base_map.o: src/make_base_map.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'make_base_map'
-#  Last modified 2021-09-13 22:47:59.617107554
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/make_base_map.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 parser:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Successfully updated.
-# automatic
-# @ := parser
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
-#  recipe to execute (from 'Makefile', line 88):
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
 	@$(MAKE) -C ./ber_parser
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-09-13 22:47:52.961062262
-#  File has been updated.
-#  Successfully updated.
-
-objs/start_game.o: src/start_game.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'start_game'
-#  Last modified 2021-09-13 22:47:59.661107852
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/fill_entities.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-09-05 16:42:01.514179
+#  Last modified 2021-09-16 17:07:59.980000582
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-src/get_image_by_type.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 16:42:01.514179
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/destroy_sprite.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:43:46.343756
-#  File has been updated.
-#  Successfully updated.
+objs/start_game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 objs/can_move_to.o: src/can_move_to.c
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'can_move_to'
-#  Last modified 2021-09-13 22:47:59.129104234
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := objs/can_move_to.o
+# automatic
+# * := can_move_to
+# automatic
+# < := src/can_move_to.c
+# automatic
+# + := src/can_move_to.c
+# automatic
+# % := 
+# automatic
+# ^ := src/can_move_to.c
+# automatic
+# ? := src/can_move_to.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/19=16%
 #  recipe to execute (from 'Makefile', line 54):
 	@echo "Compiling $< into $@"
 	@mkdir -p $(OBJS_DIR)
 	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/load_meat.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:38:01.032606
-#  File has been updated.
-#  Successfully updated.
 
 so_long: objs/can_move_to.o objs/close_win.o objs/count_entities.o objs/c_to_i.o objs/game_tick.o objs/get_ent_by_pos.o objs/make_overlay.o objs/new_entity.o objs/pos_has_entity.o objs/pressed_key.o objs/translate_player.o objs/fill_entities.o objs/load_sprites.o objs/get_player.o objs/get_exit.o objs/load_enemy.o objs/load_exit.o objs/load_meat.o objs/load_player.o objs/load_snow.o objs/load_tree.o objs/img_from_entity.o objs/make_base_map.o objs/get_image_by_type.o objs/start_game.o objs/main.o objs/destroy_entity.o objs/destroy_entities.o objs/destroy_sprite.o objs/destroy_game_sprites.o ft utils parser mlx
 #  Implicit rule search has not been done.
-#  Last modified 2021-09-13 22:48:01.141117918
-#  File has not been updated.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
 #  recipe to execute (from 'Makefile', line 51):
 	$(CC) $(OBJS) $(INCLUDES) $(LIBS) -o $(NAME)
 
-objs/get_exit.o: src/get_exit.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'get_exit'
-#  Last modified 2021-09-13 22:47:59.441106356
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+bonus: so_long
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/get_exit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 59):
+#  recipe to execute (from 'Makefile', line 61):
 	rm -rfd $(OBJS_DIR)
 	@$(MAKE) -C ./libft clean
 	@$(MAKE) -C ./img_utils clean
 	@$(MAKE) -C ./ber_parser clean
 
-objs/destroy_entities.o: src/destroy_entities.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'destroy_entities'
-#  Last modified 2021-09-13 22:47:59.729108314
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/destroy_entities.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/pressed_key.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:53:34.756173
-#  File has been updated.
-#  Successfully updated.
-
-objs/get_image_by_type.o: src/get_image_by_type.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'get_image_by_type'
-#  Last modified 2021-09-13 22:47:59.641107716
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/load_player.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-09-05 19:36:43.036225
-#  File has been updated.
-#  Successfully updated.
+objs/get_image_by_type.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 mlx:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
 #  Modification time never checked.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := mlx
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
-#  recipe to execute (from 'Makefile', line 85):
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 87):
 	@$(MAKE) -C ./mlx_linux
 
-objs/fill_entities.o: src/fill_entities.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'fill_entities'
-#  Last modified 2021-09-13 22:47:59.373105894
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
 # Not a target:
-src/main.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 21:54:52.780557
-#  File has been updated.
-#  Successfully updated.
+objs/fill_entities.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 re: fclean all
 #  Phony target (prerequisite of .PHONY).
@@ -3167,137 +450,53 @@ re: fclean all
 #  File has not been updated.
 
 # Not a target:
-src/img_from_entity.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 16:42:01.514179
-#  File has been updated.
-#  Successfully updated.
+objs/pos_has_entity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/load_snow.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:37:18.740398
-#  File has been updated.
-#  Successfully updated.
+objs/load_player.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-objs/pos_has_entity.o: src/pos_has_entity.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'pos_has_entity'
-#  Last modified 2021-09-13 22:47:59.309105458
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/load_player.o: src/load_player.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_player'
-#  Last modified 2021-09-13 22:47:59.529106954
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/translate_player.o: src/translate_player.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'translate_player'
-#  Last modified 2021-09-13 22:47:59.353105758
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/translate_player.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 ft:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Successfully updated.
-# automatic
-# @ := ft
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
- 
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
-#  recipe to execute (from 'Makefile', line 73):
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
 	@$(MAKE) -C ./libft
 
-objs/load_snow.o: src/load_snow.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_snow'
-#  Last modified 2021-09-13 22:47:59.553107118
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/main.o: src/main.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'main'
-#  Last modified 2021-09-13 22:47:59.685108016
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/load_snow.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/destroy_game_sprites.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:43:43.087775
-#  File has been updated.
-#  Successfully updated.
-
-objs/destroy_entity.o: src/destroy_entity.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'destroy_entity'
-#  Last modified 2021-09-13 22:47:59.709108178
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/load_enemy.o: src/load_enemy.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_enemy'
-#  Last modified 2021-09-13 22:47:59.461106492
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+objs/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/destroy_entity.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 18:48:48.101399
-#  File has been updated.
-#  Successfully updated.
+objs/destroy_entity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/load_enemy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -3309,82 +508,39 @@ all: so_long
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has been updated.
+#  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
 
 fclean: clean
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 65):
+#  recipe to execute (from 'Makefile', line 67):
 	rm -rf $(NAME)
 	@$(MAKE) -C ./libft fclean
 	@$(MAKE) -C ./img_utils fclean
 	@$(MAKE) -C ./ber_parser fclean
 
-objs/pressed_key.o: src/pressed_key.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'pressed_key'
-#  Last modified 2021-09-13 22:47:59.329105594
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/pressed_key.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/start_game.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-06 14:58:15.652329
-#  File has been updated.
-#  Successfully updated.
- 
+objs/count_entities.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/load_tree.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:37:48.476544
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/new_entity.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 16:42:01.518179
-#  File has been updated.
-#  Successfully updated.
-
-objs/count_entities.o: src/count_entities.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'count_entities'
-#  Last modified 2021-09-13 22:47:59.173104532
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/c_to_i.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-04 18:03:19.141974
-#  File has been updated.
-#  Successfully updated.
-
-objs/c_to_i.o: src/c_to_i.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'c_to_i'
-#  Last modified 2021-09-13 22:47:59.197104696
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+objs/c_to_i.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/can_move_to.c:
@@ -3393,180 +549,75 @@ src/can_move_to.c:
 #  File has been updated.
 #  Successfully updated.
 
-objs/load_tree.o: src/load_tree.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_tree'
-#  Last modified 2021-09-13 22:47:59.573107254
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/load_sprites.o: src/load_sprites.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_sprites'
-#  Last modified 2021-09-13 22:47:59.397106056
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-objs/load_meat.o: src/load_meat.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'load_meat'
-#  Last modified 2021-09-13 22:47:59.505106792
-#  File has been updated.
-#  Successfully updated.
- 
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
 # Not a target:
-src/destroy_entities.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 19:02:11.582711
-#  File has been updated.
-#  Successfully updated.
-
-objs/new_entity.o: src/new_entity.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'new_entity'
-#  Last modified 2021-09-13 22:47:59.285105294
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/make_base_map.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 16:42:01.518179
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/close_win.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 20:44:01.35967
-#  File has been updated.
-#  Successfully updated.
-
-objs/img_from_entity.o: src/img_from_entity.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'img_from_entity'
-#  Last modified 2021-09-13 22:47:59.597107418
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-utils:
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Successfully updated.
- 
-# automatic
-# @ := utils
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
-#  recipe to execute (from 'Makefile', line 82):
-	@$(MAKE) -C ./img_utils
-
-# Not a target:
-.SUFFIXES:
+objs/load_tree.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+# Not a target:
+objs/load_sprites.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/load_meat.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/new_entity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/img_from_entity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+utils:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'Makefile', line 84):
+	@$(MAKE) -C ./img_utils
 
 .PHONY: clean fclean re norms
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-objs/destroy_sprite.o: src/destroy_sprite.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'destroy_sprite'
-#  Last modified 2021-09-13 22:47:59.753108477
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
+# Not a target:
+objs/destroy_sprite.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/get_player.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 21:52:50.961477
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-src/get_exit.c:
-#  Implicit rule search has been done.
-#  Last modified 2021-09-05 21:53:50.332985
-#  File has been updated.
-#  Successfully updated.
-
-objs/game_tick.o: src/game_tick.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'game_tick'
-#  Last modified 2021-09-13 22:47:59.217104832
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 54):
-	@echo "Compiling $< into $@"
-	@mkdir -p $(OBJS_DIR)
-	$(CC) -c $(CFLAGS) $< $(INCLUDES) -o $@
-
-# Not a target:
-src/get_ent_by_pos.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2021-09-04 18:11:23.448683
-#  File has been updated.
-#  Successfully updated.
+objs/game_tick.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=11/231=5%
+# Load=46/1024=4%, Rehash=0, Collisions=5/112=4%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 151 / storage = 2190 B / avg = 14 B
-# current buf: size = 8162 B / used = 2190 B / count = 151 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 76 / storage = 1014 B / avg = 13 B
+# current buf: size = 8162 B / used = 1014 B / count = 76 / avg = 13 B
 
-# strcache performance: lookups = 217 / hit rate = 30%
+# strcache performance: lookups = 108 / hit rate = 29%
 # hash-table stats:
-# Load=151/8192=2%, Rehash=0, Collisions=0/217=0%
-# Finished Make data base on Mon Sep 13 22:49:41 2021
+# Load=76/8192=1%, Rehash=0, Collisions=0/108=0%
+# Finished Make data base on Thu Sep 16 17:08:22 2021
 
  
