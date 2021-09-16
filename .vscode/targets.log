@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep 16 17:08:22 2021
+# Make data base, printed on Thu Sep 16 17:23:50 2021
 
 # Variables
 
@@ -288,7 +288,6 @@ objs/destroy_game_sprites.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 objs/load_exit.o:
@@ -583,7 +582,6 @@ utils:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 84):
 	@$(MAKE) -C ./img_utils
 
@@ -617,7 +615,8 @@ objs/game_tick.o:
 
 # strcache performance: lookups = 108 / hit rate = 29%
 # hash-table stats:
+ 
 # Load=76/8192=1%, Rehash=0, Collisions=0/108=0%
-# Finished Make data base on Thu Sep 16 17:08:22 2021
+# Finished Make data base on Thu Sep 16 17:23:50 2021
 
  
